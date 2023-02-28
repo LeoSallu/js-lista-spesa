@@ -1,0 +1,25 @@
+/* 
+RESET  
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* 
+LIST 
+*/
+.container{
+    max-width: 1000px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: brown;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+}
