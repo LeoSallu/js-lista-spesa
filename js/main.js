@@ -1,6 +1,6 @@
 'use strict';
 //Array
-const list = ['pasta','pomodoro','pecorino','guanciale','pepe','peperoncino'];
+const list = ['Pasta','Pomodoro','Pecorino','Guanciale','Pepe','Peperoncino','Farina','Yogurt', 'Pane','Formaggio','Latte','Prosciutto','Insalata','Uova','Hamburger'];
 
 //Variabili
 let listIndex = list.length;
@@ -11,8 +11,7 @@ const  ulItem = document.querySelector('.list');
 //Ciclo While
 while (i < listIndex - 1){
     i++;
-    itemList += `<li>${list[i]}</li>`
-    console.log(itemList);
+    itemList += `<li><i class="fa-solid fa-square-check"></i>${list[i]}</li>`
     i < listIndex;
 }
 ulItem.innerHTML = ulItem.innerHTML + itemList; 
