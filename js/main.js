@@ -1,6 +1,7 @@
 'use strict';
 //Array
 const list = ['pasta','pomodoro','pecorino','guanciale','pepe','peperoncino'];
+
 //Variabili
 let listIndex = list.length;
 let i = 0;
@@ -14,3 +15,4 @@ while (i < listIndex - 1){
     console.log(itemList);
     i < listIndex;
 }
+ulItem.innerHTML = ulItem.innerHTML + itemList; 
